@@ -1,16 +1,13 @@
 import { createApp } from 'vue';
 import { createRouter, createWebHistory } from 'vue-router';
 import { createPinia } from 'pinia';
-import Home from './pages/Home.vue';
-import About from './pages/About.vue';
+import { useAppRoutes } from './hooks/use-app-routes';
+
 import App from './App.vue';
 
 import './index.css';
 
-const routes = [
-  { path: '/', component: Home },
-  { path: '/about', component: About },
-];
+const { routes } = useAppRoutes();
 
 const router = createRouter({ history: createWebHistory(), routes });
 const app = createApp(App);
