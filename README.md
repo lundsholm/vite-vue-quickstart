@@ -4,11 +4,13 @@ This template is a modified version of `npm init vite@latest <app name> --templa
 
 It includes:
 
-- Vue Router
-- Pinia
-- Tailwind
-- Unplugin Icons (with auto import)
-- Prettier
+- [Vue Router](https://next.router.vuejs.org/)
+- [Pinia](https://github.com/posva/pinia)
+- [Windi CSS](https://windicss.org/)
+- [Unplugin Icons (with auto import)](https://github.com/antfu/unplugin-icons)
+- [File based routing](https://github.com/hannoeru/vite-plugin-pages)
+- [Layouts](https://github.com/JohnCampionJr/vite-plugin-vue-layouts)
+- [Prettier](https://prettier.io/)
 
 The template also includes some demo components to highlight how to use the most common Vue features when using `<script setup>` SFCs.
 
